@@ -53,8 +53,8 @@ function enqueue_color_picker( $hook_suffix ) {
 }
 
 function actab_settings_dashboard(){
-  /*  if (!current_user_can('manage_options'))  {
+    if (!current_user_can('manage_options'))  {
         wp_die( __('You do not have sufficient permissions to access this page.', 'amazing-call-to-action-button') );
     }
-    include plugins_url() . '/'.  basename(dirname(__FILE__)) . '/admin/options-page.php';*/
+    //include plugins_url() . '/'.  basename(dirname(__FILE__)) . '/admin/options-page.php';
 }
